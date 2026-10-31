@@ -1,0 +1,10 @@
+torch
+transformers>=4.51.0
+accelerate
+peft
+bitsandbytes
+datasets
+spacy
+scipy
+numpy
+tqdm

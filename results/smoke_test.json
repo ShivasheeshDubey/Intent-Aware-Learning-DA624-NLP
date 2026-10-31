@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen3-1.7B-Base",
+  "prefix": "This website is safe to",
+  "observed_target": "browse",
+  "target_probability": 0.27415806,
+  "manual_concept_set": ["browse", "search", "visit", "surf", "navigate", "access", "view", "click"],
+  "concept_probability_mass": 0.64960588,
+  "ntp_nll": 1.2941,
+  "raw_concept_nll": 0.4314,
+  "threshold": 0.6,
+  "thresholded_concept_loss": 0.0,
+  "note": "Sanity-check result obtained during development; not a benchmark result."
+}

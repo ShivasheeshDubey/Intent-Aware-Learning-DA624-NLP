@@ -1,18 +1,12 @@
-# Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 .venv/
 venv/
-
-# Jupyter
 .ipynb_checkpoints/
 
-# Datasets
+# Generated corpora and model files
 data/
 datasets/
-
-# Models and checkpoints
 checkpoints/
 models/
 *.safetensors
@@ -20,18 +14,16 @@ models/
 *.pt
 *.pth
 
-# Hugging Face cache
+# Caches / tracking
 .cache/
 huggingface/
-
-# Experiment tracking
 wandb/
 
-# Secrets
+# Keep result JSON/Markdown; ignore bulky arrays/checkpoints only
+results/*.npy
+
 .env
 *.env
-
-# OS / IDE
 .DS_Store
 .vscode/
 .idea/

@@ -4,8 +4,21 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "intent-aware-learning"
-version = "0.1.0"
+version = "0.2.0"
+description = "Reduced-scale concept-aware training for causal language models"
 requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "transformers>=4.51.0",
+  "accelerate",
+  "peft",
+  "bitsandbytes",
+  "datasets",
+  "spacy",
+  "scipy",
+  "numpy",
+  "tqdm",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

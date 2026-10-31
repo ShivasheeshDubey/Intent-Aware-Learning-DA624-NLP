@@ -1,0 +1,17 @@
+{
+  "base_model": "Qwen/Qwen3-1.7B-Base",
+  "filter_model": "Qwen/Qwen3-1.7B",
+  "c4_sequences": 120,
+  "openwebtext_sequences": 60,
+  "max_length": 256,
+  "max_targets_per_sequence": 4,
+  "top_k": 100,
+  "max_candidates": 30,
+  "max_synonyms": 10,
+  "target_mass": 0.6,
+  "train_epochs": 2,
+  "learning_rate": 0.00007,
+  "concept_weights": [0.0, 0.5],
+  "extension": {"concept_weight": 0.5, "preserve_beta": 0.1},
+  "seed": 42
+}
